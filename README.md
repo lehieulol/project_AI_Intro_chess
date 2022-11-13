@@ -13,10 +13,11 @@ by  Le Quang Hieu 20210335 (Lichtut)
     
 What inside:  
    * Chess simulator (A):  
+      * Display current state
       * Return value of current board (w-l; material)
       * Return value of the current board after a sequence of moves 
-	  * Return the terminal states (1) - white win, (-1) - black win, (0) - draw
-	  * Return next moves of opponent
+      * Return the terminal states (1) - white win, (-1) - black win, (0) - draw
+      * Return next moves of opponent
    * Real-life tester (B):
       * Play in online chess platfrom (chess.com, lichess.com)
 	  * Get the color you play in
